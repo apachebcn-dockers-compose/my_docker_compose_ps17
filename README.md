@@ -1,3 +1,4 @@
+Escrito por Pedro Reina Rojas (apachebcn@gmail.com)
 # Lampp
 
 ## Comandos utiles:
@@ -5,6 +6,10 @@
 - Ejecutar contenedor : `docker-compose up -d`
 - Parar contenedor : `docker-compose down`
 - Reconstruir contendor : `docker-compose up -d --build`
+
+## Xdebug
+Para habilitar/deshabilitar xdebug, editar el fichero `Dockerfile`, y setear `xdebug.remote_enable` a `on` o `off`
+Para setear variables de xdebug, editar el fichero `Dockerfile` en los respectivos `RUN echo` donde escribe en `> /usr/local/etc/php/php.ini`
 
 ## Scripts de ayuda
 ### Entrar en los contenedores
