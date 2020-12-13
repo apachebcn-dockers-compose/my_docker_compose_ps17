@@ -1,0 +1,4 @@
+clear
+cd ..
+docker-compose down
+docker-compose up
